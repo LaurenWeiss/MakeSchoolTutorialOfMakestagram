@@ -23,6 +23,8 @@
 		2E5684791F05626900A7D237 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5684781F05626900A7D237 /* StorageReference+Post.swift */; };
 		2E56847B1F05661E00A7D237 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E56847A1F05661E00A7D237 /* Home.storyboard */; };
 		2E56847D1F0572CC00A7D237 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56847C1F0572CC00A7D237 /* PostImageCell.swift */; };
+		2E56847F1F05999E00A7D237 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56847E1F05999E00A7D237 /* PostHeaderCell.swift */; };
+		2E5684811F05A8E200A7D237 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5684801F05A8E200A7D237 /* PostActionCell.swift */; };
 		2EB9B1261F017E82009CD9C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB9B1251F017E82009CD9C2 /* AppDelegate.swift */; };
 		2EB9B12D1F017E82009CD9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB9B12C1F017E82009CD9C2 /* Assets.xcassets */; };
 		2EB9B13B1F01868F009CD9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB9B1371F01868F009CD9C2 /* LaunchScreen.storyboard */; };
@@ -51,6 +53,8 @@
 		2E5684781F05626900A7D237 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		2E56847A1F05661E00A7D237 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
 		2E56847C1F0572CC00A7D237 /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		2E56847E1F05999E00A7D237 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		2E5684801F05A8E200A7D237 /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		2EB9B1221F017E82009CD9C2 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB9B1251F017E82009CD9C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB9B12C1F017E82009CD9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 			children = (
 				2EB9B1381F01868F009CD9C2 /* Main.storyboard */,
 				2E56847A1F05661E00A7D237 /* Home.storyboard */,
+				2E5684801F05A8E200A7D237 /* PostActionCell.swift */,
+				2E56847E1F05999E00A7D237 /* PostHeaderCell.swift */,
 				2EB9B1461F018B8B009CD9C2 /* Login.storyboard */,
 			);
 			name = Storyboards;
@@ -333,6 +339,7 @@
 				2EB9B1491F018C1B009CD9C2 /* LoginViewController.swift in Sources */,
 				2E5684671F04182E00A7D237 /* MainTabBarController.swift in Sources */,
 				2E5684571F03020000A7D237 /* UserService.swift in Sources */,
+				2E5684811F05A8E200A7D237 /* PostActionCell.swift in Sources */,
 				2E5684751F0450A100A7D237 /* Post.swift in Sources */,
 				2E56847D1F0572CC00A7D237 /* PostImageCell.swift in Sources */,
 				2E5684771F05610000A7D237 /* UIImage+Size.swift in Sources */,
@@ -344,6 +351,7 @@
 				2E56845C1F03146200A7D237 /* Constants.swift in Sources */,
 				2E5684731F044E4600A7D237 /* PostService.swift in Sources */,
 				2E5684551F02F7DE00A7D237 /* CreateUsernameViewController.swift in Sources */,
+				2E56847F1F05999E00A7D237 /* PostHeaderCell.swift in Sources */,
 				2EB9B1261F017E82009CD9C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
