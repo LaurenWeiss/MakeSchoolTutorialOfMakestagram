@@ -23,6 +23,8 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        configureTableView()
+        
         //used to fetch the posts from Firebase
         UserService.posts(for: User.current) { (posts) in
             self.posts = posts
@@ -30,6 +32,14 @@ class HomeViewController: UIViewController {
         }
         
     }
+    
+    func configureTableView() {
+        //remove separators for empty cells
+        tableView.tableFooterView = UIView()
+        //remove separators from cells
+        tableView.separatorStyle = .none
+    }
+    
 }
 
 // MARK: - UITableViewDataSource
@@ -50,11 +60,6 @@ extension HomeViewController: UITableViewDataSource {
         cell.postImageView.kf.setImage(with: imageURL)
         
         return cell
-        
-        //    self.tableView.register(PostImageCell:AnyClass?, forCellReuseIdentifier: "PostImageCell")
-        //self.tableView.regist(UITableViewCell.self, forCellReuseIdentifier: "PostImageCell")
-        
-        //  let cell = tableView.dequeueReusableCell(withIdentifier: "PostImageCell", for: indexPath) as! PostImageCell
     }
 }
 
