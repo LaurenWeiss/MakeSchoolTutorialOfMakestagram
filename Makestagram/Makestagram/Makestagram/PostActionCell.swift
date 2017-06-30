@@ -11,6 +11,8 @@ import UIKit
 
 class PostActionCell: UITableViewCell{
     
+    static let height: CGFloat = 46
+    
     // MARK: - Subviews
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var timeAgoLabel: UILabel!

@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
+        <!--Makestagram-->
         <scene sceneID="A31-sM-5Wh">
             <objects>
                 <viewController id="hCV-Xm-1be" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
@@ -160,7 +160,7 @@
                             <constraint firstAttribute="bottom" secondItem="tnu-xW-SP0" secondAttribute="bottom" id="xRc-ck-Glh"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="yCM-wG-w3k"/>
+                    <navigationItem key="navigationItem" title="Makestagram" id="yCM-wG-w3k"/>
                     <connections>
                         <outlet property="tableView" destination="tnu-xW-SP0" id="xhw-s2-bOx"/>
                     </connections>
