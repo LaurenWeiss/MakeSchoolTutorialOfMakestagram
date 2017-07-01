@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2DE0F01F06CC650076BEE6 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DE0EF1F06CC650076BEE6 /* LikeService.swift */; };
+		2E2DE0F41F076DE00076BEE6 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DE0F31F076DE00076BEE6 /* FollowService.swift */; };
 		2E5684551F02F7DE00A7D237 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5684541F02F7DE00A7D237 /* CreateUsernameViewController.swift */; };
 		2E5684571F03020000A7D237 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5684561F03020000A7D237 /* UserService.swift */; };
 		2E56845A1F030C0C00A7D237 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5684591F030C0C00A7D237 /* AdSupport.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E2DE0EF1F06CC650076BEE6 /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
+		2E2DE0F31F076DE00076BEE6 /* FollowService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
 		2E5684541F02F7DE00A7D237 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		2E5684561F03020000A7D237 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		2E5684591F030C0C00A7D237 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -107,6 +111,8 @@
 				2E5684781F05626900A7D237 /* StorageReference+Post.swift */,
 				2E5684721F044E4600A7D237 /* PostService.swift */,
 				2E5684561F03020000A7D237 /* UserService.swift */,
+				2E2DE0EF1F06CC650076BEE6 /* LikeService.swift */,
+				2E2DE0F31F076DE00076BEE6 /* FollowService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -334,12 +340,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2DE0F41F076DE00076BEE6 /* FollowService.swift in Sources */,
 				2EB9B14E1F01BC4C009CD9C2 /* User.swift in Sources */,
 				2E5684711F044CE900A7D237 /* StorageService.swift in Sources */,
 				2EB9B1491F018C1B009CD9C2 /* LoginViewController.swift in Sources */,
 				2E5684671F04182E00A7D237 /* MainTabBarController.swift in Sources */,
 				2E5684571F03020000A7D237 /* UserService.swift in Sources */,
 				2E5684811F05A8E200A7D237 /* PostActionCell.swift in Sources */,
+				2E2DE0F01F06CC650076BEE6 /* LikeService.swift in Sources */,
 				2E5684751F0450A100A7D237 /* Post.swift in Sources */,
 				2E56847D1F0572CC00A7D237 /* PostImageCell.swift in Sources */,
 				2E5684771F05610000A7D237 /* UIImage+Size.swift in Sources */,
